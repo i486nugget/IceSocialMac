@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		1DC1249B2D201BFA0002D848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DC124812D201BF90002D848 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DC124882D201BF90002D848;
+			remoteInfo = IceSocial;
+		};
+		1DC124A52D201BFA0002D848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DC124812D201BF90002D848 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DC124882D201BF90002D848;
+			remoteInfo = IceSocial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DC124892D201BF90002D848 /* IceSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IceSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC1249A2D201BFA0002D848 /* IceSocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IceSocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC124A42D201BFA0002D848 /* IceSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IceSocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1DC1248B2D201BF90002D848 /* IceSocial */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IceSocial;
+			sourceTree = "<group>";
+		};
+		1DC1249D2D201BFA0002D848 /* IceSocialTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IceSocialTests;
+			sourceTree = "<group>";
+		};
+		1DC124A72D201BFA0002D848 /* IceSocialUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IceSocialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DC124862D201BF90002D848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC124972D201BFA0002D848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC124A12D201BFA0002D848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DC124802D201BF90002D848 = {
+			isa = PBXGroup;
+			children = (
+				1DC1248B2D201BF90002D848 /* IceSocial */,
+				1DC1249D2D201BFA0002D848 /* IceSocialTests */,
+				1DC124A72D201BFA0002D848 /* IceSocialUITests */,
+				1DC1248A2D201BF90002D848 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DC1248A2D201BF90002D848 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DC124892D201BF90002D848 /* IceSocial.app */,
+				1DC1249A2D201BFA0002D848 /* IceSocialTests.xctest */,
+				1DC124A42D201BFA0002D848 /* IceSocialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DC124882D201BF90002D848 /* IceSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DC124AE2D201BFA0002D848 /* Build configuration list for PBXNativeTarget "IceSocial" */;
+			buildPhases = (
+				1DC124852D201BF90002D848 /* Sources */,
+				1DC124862D201BF90002D848 /* Frameworks */,
+				1DC124872D201BF90002D848 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1DC1248B2D201BF90002D848 /* IceSocial */,
+			);
+			name = IceSocial;
+			packageProductDependencies = (
+			);
+			productName = IceSocial;
+			productReference = 1DC124892D201BF90002D848 /* IceSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DC124992D201BFA0002D848 /* IceSocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DC124B12D201BFA0002D848 /* Build configuration list for PBXNativeTarget "IceSocialTests" */;
+			buildPhases = (
+				1DC124962D201BFA0002D848 /* Sources */,
+				1DC124972D201BFA0002D848 /* Frameworks */,
+				1DC124982D201BFA0002D848 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DC1249C2D201BFA0002D848 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1DC1249D2D201BFA0002D848 /* IceSocialTests */,
+			);
+			name = IceSocialTests;
+			packageProductDependencies = (
+			);
+			productName = IceSocialTests;
+			productReference = 1DC1249A2D201BFA0002D848 /* IceSocialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DC124A32D201BFA0002D848 /* IceSocialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DC124B42D201BFA0002D848 /* Build configuration list for PBXNativeTarget "IceSocialUITests" */;
+			buildPhases = (
+				1DC124A02D201BFA0002D848 /* Sources */,
+				1DC124A12D201BFA0002D848 /* Frameworks */,
+				1DC124A22D201BFA0002D848 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DC124A62D201BFA0002D848 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1DC124A72D201BFA0002D848 /* IceSocialUITests */,
+			);
+			name = IceSocialUITests;
+			packageProductDependencies = (
+			);
+			productName = IceSocialUITests;
+			productReference = 1DC124A42D201BFA0002D848 /* IceSocialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DC124812D201BF90002D848 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					1DC124882D201BF90002D848 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1DC124992D201BFA0002D848 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1DC124882D201BF90002D848;
+					};
+					1DC124A32D201BFA0002D848 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1DC124882D201BF90002D848;
+					};
+				};
+			};
+			buildConfigurationList = 1DC124842D201BF90002D848 /* Build configuration list for PBXProject "IceSocial" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DC124802D201BF90002D848;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1DC1248A2D201BF90002D848 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DC124882D201BF90002D848 /* IceSocial */,
+				1DC124992D201BFA0002D848 /* IceSocialTests */,
+				1DC124A32D201BFA0002D848 /* IceSocialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DC124872D201BF90002D848 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC124982D201BFA0002D848 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC124A22D201BFA0002D848 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DC124852D201BF90002D848 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC124962D201BFA0002D848 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC124A02D201BFA0002D848 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DC1249C2D201BFA0002D848 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DC124882D201BF90002D848 /* IceSocial */;
+			targetProxy = 1DC1249B2D201BFA0002D848 /* PBXContainerItemProxy */;
+		};
+		1DC124A62D201BFA0002D848 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DC124882D201BF90002D848 /* IceSocial */;
+			targetProxy = 1DC124A52D201BFA0002D848 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DC124AC2D201BFA0002D848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DC124AD2D201BFA0002D848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1DC124AF2D201BFA0002D848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IceSocial/IceSocial.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IceSocial/Preview Content\"";
+				DEVELOPMENT_TEAM = AS8Q554MFK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = i486nugget.IceSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1DC124B02D201BFA0002D848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IceSocial/IceSocial.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IceSocial/Preview Content\"";
+				DEVELOPMENT_TEAM = AS8Q554MFK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = i486nugget.IceSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1DC124B22D201BFA0002D848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AS8Q554MFK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = i486nugget.IceSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IceSocial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IceSocial";
+			};
+			name = Debug;
+		};
+		1DC124B32D201BFA0002D848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AS8Q554MFK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = i486nugget.IceSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IceSocial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IceSocial";
+			};
+			name = Release;
+		};
+		1DC124B52D201BFA0002D848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AS8Q554MFK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = i486nugget.IceSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = IceSocial;
+			};
+			name = Debug;
+		};
+		1DC124B62D201BFA0002D848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AS8Q554MFK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = i486nugget.IceSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = IceSocial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DC124842D201BF90002D848 /* Build configuration list for PBXProject "IceSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC124AC2D201BFA0002D848 /* Debug */,
+				1DC124AD2D201BFA0002D848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DC124AE2D201BFA0002D848 /* Build configuration list for PBXNativeTarget "IceSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC124AF2D201BFA0002D848 /* Debug */,
+				1DC124B02D201BFA0002D848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DC124B12D201BFA0002D848 /* Build configuration list for PBXNativeTarget "IceSocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC124B22D201BFA0002D848 /* Debug */,
+				1DC124B32D201BFA0002D848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DC124B42D201BFA0002D848 /* Build configuration list for PBXNativeTarget "IceSocialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC124B52D201BFA0002D848 /* Debug */,
+				1DC124B62D201BFA0002D848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DC124812D201BF90002D848 /* Project object */;
+}
